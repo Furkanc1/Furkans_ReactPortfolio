@@ -5,7 +5,7 @@ export default function Header() {
         <header className="containerWithSpinningLogo">
         <img src={logo} className="App-logo" alt="logo" />
 
-        <p>F-Port </p>
+        <p className="appTitle">F-Port </p>
         
       </header>
     )

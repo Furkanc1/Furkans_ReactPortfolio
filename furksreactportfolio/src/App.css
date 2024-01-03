@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.appTitle {
+  color: rgb(214, 105, 234);
 }
 
 .App-logo {
@@ -9,19 +15,60 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    animation: App-logo-spin infinite 7s;  }
+}
+
+a {
+  color: rgb(113, 5, 132);
+}
+
+.navbar{
+  background-color: rgb(139, 136, 136);
+}
+
+.navList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  justify-content: space-evenly;
+  
+}
+
+.nav-item{
+  padding: 10px;
+  margin: 0;
+}
+
+.resumeContainer {
+  background-color: rgb(214, 105, 234);
+}
+
+.contactInfoContainer{
+  background-color: rgb(214, 105, 234);
+}
+
+.emailStyling {
+  border-bottom-style: double;
 }
 
 .containerWithSpinningLogo {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #342828;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.footer {
+  background-color: rgb(139, 136, 136);
+}
+
+.footerText {
+  font-size: 10px;
 }
 
 .App-link {

@@ -10,6 +10,7 @@ import Footer from "./components/footer/footer";
 import AboutMe from "./components/aboutMe/aboutMe";
 import Portfolio from "./components/portfolio/portfolio";
 import Resume from "./components/resume/resume"
+import Contact from "./components/contact/contact";
 
 
 export default function App() {
@@ -23,6 +24,8 @@ export default function App() {
       <Routes>
         <Route path="/about" element={<AboutMe/>} />
         <Route path="/portfolio" element={<Portfolio/>} />
+        <Route path="/resume" element={<Resume/>} />
+        <Route path="/contact" element={<Contact/>} />
         
       </Routes>
 
