@@ -1,8 +1,31 @@
-export default function Portfolio() {
+import "../../App.css";
+import React from 'react';
+
+export default function Portfolio({projects}) {
+  console.log("projects", projects);
   return (
-    <div>
-      <h2>Portfolio:</h2>
-      <p> Need to create an array of boxes here with my projects + Github links to each repo indivisually</p>
+    <div className="sectionContainer">
+      <h2>My Projects:</h2>
+      <div className="projectBoxContainer">
+        <div className={"project flex alignCenter justifyCenter flexColumn"}>
+          <h3>project 1</h3>
+          <p>
+            project description
+          </p>
+        </div>
+        <div className={"project flex alignCenter justifyCenter flexColumn"}>
+          <h3>project 2</h3>
+          <p>
+            project description
+          </p>
+        </div>
+        <div className={"project flex alignCenter justifyCenter flexColumn"}>
+          <h3>project 3</h3>
+          <p>
+            project description
+          </p> flexColumn
+        </div>
+      </div>
     </div>
   );
 }

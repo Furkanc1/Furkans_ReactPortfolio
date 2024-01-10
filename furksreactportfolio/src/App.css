@@ -5,7 +5,7 @@
   flex-wrap: wrap;
 }
 .appTitle {
-  color: rgb(214, 105, 234);
+  font-size:x-large;
 }
 
 .App-logo {
@@ -16,10 +16,71 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 7s;  }
+  }
+  
+  .sectionContainer{
+    background-color: rgb(227, 110, 247);
+    min-height: 55vh;
+  }
+
+  a {
+  color: #342828;
 }
 
-a {
-  color: rgb(113, 5, 132);
+a:hover{
+  color: #000000;
+}
+
+.mainPageBio{
+  font-size: larger;
+  border: black;
+  margin-left: 35px;
+  border-style: solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 35px;
+  padding: 10px;
+}
+
+.aboutMeBio {
+  border-width: 1px;
+  margin-left: 35px;
+  border-style: solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 35px;
+  font-size: larger;
+  padding: 25px;
+
+}
+
+
+#aboutMeHeader {
+  border: black;
+  border-style: solid;
+  margin-left: 35px;
+  border-style: solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 35px;
+}
+
+.projectBoxContainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  gap: 15px;
+}
+
+.project {
+  min-height: 150px;
+  border: 1px solid black;
 }
 
 .navbar{
@@ -38,14 +99,15 @@ a {
 .nav-item{
   padding: 10px;
   margin: 0;
+  color: grey;
 }
 
 .resumeContainer {
-  background-color: rgb(214, 105, 234);
+  background-color: rgb(227, 110, 247);
 }
 
 .contactInfoContainer{
-  background-color: rgb(214, 105, 234);
+  background-color: rgb(227, 110, 247);
 }
 
 .emailStyling {
@@ -62,6 +124,7 @@ a {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .footer {
   background-color: rgb(139, 136, 136);
