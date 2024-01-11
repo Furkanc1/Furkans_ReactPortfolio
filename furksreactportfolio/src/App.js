@@ -16,8 +16,9 @@ import { cachedProjects, getGithubData, vanillaJavaScriptValidation } from "./he
 export default function App() {
   
   
-let [projects, setProjects] = useState(cachedProjects)
   
+let [projects, setProjects] = useState(cachedProjects)
+// let [projects, setProjects] = useState(  getGithubData() || cachedProjects)
   return (
     <Router>
     <div className="App">
