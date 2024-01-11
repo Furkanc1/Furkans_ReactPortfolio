@@ -72,16 +72,45 @@ a:hover{
 }
 
 .projectBoxContainer{
+  grid-template-columns: 30% 30% 30%;
   display: grid;
-  grid-template-columns: auto auto auto;
   width: 100%;
   gap: 15px;
+  justify-content: center;
+  padding-bottom: 15px;
 }
 
 .project {
-  min-height: 150px;
   border: 1px solid black;
+  width: 100%;
+  overflow: hidden;
+  
+  min-height: 150px;
+  border-radius: 15px;
+  padding-bottom: 15px;
 }
+
+.projectLinkButton{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #000000; 
+  color: rgb(227, 110, 247); 
+  transition: background-color 0.5s ease;
+}
+
+.projectLinkButton:hover {
+  color: black;
+  transition: 0.3s ease;
+  background-color: rgb(227, 110, 247); 
+}
+
 
 .navbar{
   background-color: rgb(139, 136, 136);
