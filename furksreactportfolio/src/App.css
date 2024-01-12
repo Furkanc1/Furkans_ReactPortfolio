@@ -45,30 +45,36 @@ a:hover{
 }
 
 .aboutMeBio {
-  border-width: 1px;
-  margin-left: 35px;
+  box-shadow: black 7px 8px 21px -6px;
+  border-width: 0px;
+  margin-left: 85px;
   border-style: solid;
   text-align: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-right: 35px;
+  margin-right: 85px;
   font-size: larger;
   padding: 25px;
 
+}
+
+.project p {
+  width: 80%;
+  margin: 0 auto 10px;
 }
 
 
 #aboutMeHeader {
   border: black;
   border-style: solid;
-  margin-left: 35px;
-  border-style: solid;
+  margin-left: 150px;
+  border-style: none;
   text-align: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-right: 35px;
+  margin-right: 150px;
 }
 
 .projectBoxContainer{
@@ -78,16 +84,20 @@ a:hover{
   gap: 15px;
   justify-content: center;
   padding-bottom: 15px;
+  justify-content: space-evenly;
 }
 
 .project {
-  border: 1px solid black;
+  margin-bottom: 10px;
+  text-align: center;
+  box-shadow: black 0px 0px 13px 5px;
+  border: 0px solid black;
   width: 100%;
   overflow: hidden;
-  
   min-height: 150px;
   border-radius: 15px;
   padding-bottom: 15px;
+  display: grid;
 }
 
 .projectLinkButton{

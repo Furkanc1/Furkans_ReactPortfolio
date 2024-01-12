@@ -2,7 +2,6 @@ import "../../App.css";
 import React from "react";
 
 export default function Portfolio({ projects }) {
-  console.log("projects", projects);
   return (
     <div className="sectionContainer">
       <h2>My Projects:</h2>
