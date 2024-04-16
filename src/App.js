@@ -3,13 +3,14 @@ import { useState } from "react";
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/navbar";
-import Header from "./components/header/header";
+// import Header from "./components/header/landingPage";
 import Footer from "./components/footer/footer";
 import AboutMe from "./components/aboutMe/aboutMe";
 import Portfolio from "./components/portfolio/portfolio";
 import Resume from "./components/resume/resume";
 import Contact from "./components/contact/contact";
 import { cachedProjects } from "./helper";
+import LandingPage from "./components/landingPage/LandingPage";
 // import { getGithubData } from "./helper";
 // import { projectsUsedAcrossApplication } from './helper';
 
@@ -40,9 +41,8 @@ export default function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Header />
-
         <Routes>
+          <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<AboutMe />} />
           <Route
             path="/portfolio"

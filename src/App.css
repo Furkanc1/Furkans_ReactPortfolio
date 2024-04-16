@@ -185,3 +185,21 @@ a:hover{
     transform: rotate(360deg);
   }
 }
+
+/* STARTING AGAIN FROM HERE ON:*/
+
+.pageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.informationBox{
+  margin: 75px;
+  border-radius: 8px;
+  border-style: solid;
+  padding: 5px;
+}
+
+
